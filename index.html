@@ -1,0 +1,109 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title id="title">Medieval Fantasy Weapon Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title">Medieval Fantasy Weapon Form</h1>
+        <p id="description">Thank you for taking the time to help us make a better Medieval Fantasy Story</p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input id="name" class="form-control" type="text" name="name" placeholder="Enter your name" required="" autofocus>
+        </div>
+        
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input id="email" class="form-control" type="email" name="email" placeholder="Enter your email" required="">
+        </div>
+        
+        <div class="form-group">
+          <label id="number-label" for="number">How many medieval fantasy books, games and/or tv shows have you consumed this year?</label>          
+          <input id="number" class="form-control" type="number" name="books" min="0" max="1000" placeholder="An estimate" required="">
+        </div>
+        
+        <div class="form-group">
+          <label id="class-label" for="class">Which base class archetype is your favorite?</label>         
+          <select id="dropdown" class="form-control" name="archetype" required="">
+            <option value="warrior">Warrior</option>
+            <option value="mage">Mage</option>
+            <option value="ranger">Ranger</option>
+            <option value="assassin">Assassin</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <label id="weapon-label" for="weapon">Which base weapon is your favorite?</label>
+          <label>
+            <input class="input-radio" name="user-recommend" value="sword" type="checkbox" checked="">Sword
+          </label>
+          
+          <label>
+            <input class="input-radio" name="user-recommend" value="mace" type="checkbox">Mace
+          </label>
+          
+          <label>
+            <input class="input-radio" name="user-recommend" value="axe" type="checkbox">Axe
+          </label>
+          
+          <label>
+            <input class="input-radio" name="user-recommend" value="spear" type="checkbox">Spear
+          </label>
+          
+          <label>
+            <input class="input-radio" name="user-recommend" value="staff" type="checkbox">Staff
+          </label>
+          
+          <label>
+            <input class="input-radio" name="user-recommend" value="rod" type="checkbox">Rod
+          </label>
+          
+          <label>
+            <input class="input-radio" name="user-recommend" value="book" type="checkbox">Book
+          </label>
+          
+          <label>
+            <input class="input-radio" name="user-recommend" value="bow" type="checkbox">Bow
+          </label>
+          
+          <label>
+            <input class="input-radio" name="user-recommend" value="dagger" type="checkbox">Dagger
+          </label>
+          
+          <label>
+            <input class="input-radio" name="user-recommend" value="poison" type="checkbox">Poison
+          </label>
+          
+          <label>
+            <input class="input-radio" name="user-recommend" value="other" type="checkbox">Other
+          </label>
+        </div>
+        
+        <div class="form-group">
+          <label id="weapon-label" for="weapon">Do you like when a mix of different classes and weapons are used? (Example: Book and Dagger Mage)</label>
+          <label>
+            <input class="input-radio" name="user-recommend" value="yes" type="radio" checked="">Yes, new things are fun.
+          </label>
+          <label>
+            <input class="input-radio" name="user-recommend" value="maybe" type="radio" checked="">Maybe, depends on the universe.
+          </label>
+          <label>
+            <input class="input-radio" name="user-recommend" value="no" type="radio" checked="">No, archetypes are archetypes for a reason.
+          </label>
+        </div>
+        
+        <div class="form-group">
+          <label id="comment-label" for="comment">Any comments or suggestions of classes with different weapons?</label>
+          
+          <textarea id="comments" class="input-textarea" name="comment" placeholder="Double spears warrior, book and dagger mage..."></textarea>
+        </div>
+        <div class="form-group">
+          <button id="submit" class="submit-button" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
